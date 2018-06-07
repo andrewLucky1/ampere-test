@@ -4,13 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
     "jsdom": "^11.11.0",
     "lodash": "^4.17.10",
     "request": "^2.87.0"
   },
   "scripts": {
-    "start": "node app.js parse-ampere",
-    "dev": "nodemon --exec \"yarn start\""
+    "start": "node server.js",
+    "gather-posts": "node app.js parse-ampere",
+    "dev": "nodemon --exec \"yarn gather-posts\""
   }
 }
