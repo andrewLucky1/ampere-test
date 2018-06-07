@@ -1,0 +1,16 @@
+{
+  "name": "ampere_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^11.11.0",
+    "lodash": "^4.17.10",
+    "request": "^2.87.0"
+  },
+  "scripts": {
+    "start": "node app.js parse-ampere",
+    "dev": "nodemon --exec \"yarn start\""
+  }
+}
